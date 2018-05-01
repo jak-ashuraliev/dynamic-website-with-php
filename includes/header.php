@@ -8,40 +8,55 @@
 ?>
 
 <!DOCTYPE html>
-<html lang='en'>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="Jak Ashuraliev" content="Dynamic Website using PHP">
-        <title> <?php echo TITLE; ?> </title>
-        
-        <!--Bootstrap CSS-->
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-       
-        <!-- Stylesheet -->
-        <link href="/assets/styles.css" rel="stylesheet">
-        
-    </head>
+<html lang="en">
+<head>
+    <title> <?php echo TITLE; ?> </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Intelligent Process Automation, or IPA, is what happens when you combine the power of Nintex workflow automation with robotic process automation and machine learning. Learn more about how Nintex has pioneered the move to no-code process automation and is pushing forward with Intelligent Process Automation solutions.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <body>
-      <div class="container">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ 
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+    
+    <!-- Styles CSS -->
+    <link href="/assets/styles.css" rel="stylesheet">
         
-       <nav class="navbar navbar-expand-sm navbar-dark bg-dark mr-auto">
-           <a class="navbar-brand" href="."><img src="https://www.nintex.com/-/media/images/nintex/sections/nintex-logo.ashx?h=50&w=174&la=en&hash=DF87DB84E303661159DCB02CA8FAA81EDC9E3CAF"></img></a>
-           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-             <span class="navbar-toggler-icon"></span>
-           </button>
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+        
+</head>
+<body>
 
-           <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-               
-            <!--Include navigation-->
-            <?php include('includes/nav.php'); ?>
-             
-            <form class="form-inline my-2 my-lg-0">
-               <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-               <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-             </form>
-           </div>
-        </nav>
+<nav class="navbar navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#example-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+            <a class="navbar-brand" href="."><img src="https://www.nintex.com/-/media/images/nintex/sections/nintex-logo.ashx?h=50&w=174&la=en&hash=DF87DB84E303661159DCB02CA8FAA81EDC9E3CAF"></img></a>
+        </div>
+        
+        
+        <!--Include navigation-->
+        <?php include('includes/nav.php'); ?>
+        
+        
+        <form class="navbar-form text-right" action="/action_page.php">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search" name="search">
+            <div class="input-group-btn">
+              <button class="btn btn-default" type="submit">
+                <i class="glyphicon glyphicon-search"></i>
+              </button>
+            </div>
+          </div>
+          <span class="freeTrial">FREE TRIAL</span>
+        </form>
+    </div>
+</nav>
