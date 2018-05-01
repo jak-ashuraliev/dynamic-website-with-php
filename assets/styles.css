@@ -5,6 +5,10 @@ body{
     background-color: #999;
 }
 
+.navbar-brand{
+    padding: 6px;
+}
+
 .navbar {
     background-color: #fff !important;
     height: 62px;
@@ -13,29 +17,41 @@ body{
 
 .navbar-nav{
     /*margin-left: 50px;*/
-    margin-top: 4px;
+    margin-top: 6px;
+    padding-left: 80px;
+
 }
 
 .navbar-nav li a{
-    color: #333;
+    color: #414042 !important;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: .5px;
     font-size: 14px;
+    padding: 0;
 }
 
-.input-group,
-.freeTrial{
-    position: relative;
-    top: 4px;
+.navbar-default .navbar-nav>.active>a{
+    background: #fff;
 }
-.input-group input{
-    border-radius: 10px;
+.navbar-default .navbar-nav>li>a{
+    color: #414042 !important;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>li>a:hover {
+    background: #fff;
+    color: #f47920 !important;
+}
+
+.navbar-form{
+    /*position: relative;*/
+    margin-top: -42px;
 }
 
 .freeTrial {
     background: #f47920;
-    padding: 25px;
+    padding: 23px;
     color: #fff;
     font-size: 14px;
     margin-left: 10px;
@@ -43,9 +59,6 @@ body{
     letter-spacing: .5px;
 }
 
-.navbar-brand{
-    padding: 6px;
-}
 
 
 h1{
@@ -53,3 +66,14 @@ h1{
     color: red;
 }
 
+
+
+
+/* ===================== DROPDOWN MAIN NAVIGATION =====================*/
+
+.custom-dropdown {
+    background: #414042 !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}

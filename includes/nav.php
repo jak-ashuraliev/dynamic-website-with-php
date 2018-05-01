@@ -1,7 +1,5 @@
-<!-- Collapsible Navbar -->
-		<div class="collapse navbar-collapse" id="example-1">
+
 			<ul class="nav navbar-nav">
-				
 				
 				
 				 <?php 
@@ -13,16 +11,12 @@
                     
                 ?>
                 
-                <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">English</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown01">
-                   <?php 
-                   
-                        // Languages 
-                        foreach ($languageItems as $language){
-                            echo "<a class=\"dropdown-item\" href=\"$language[slug]\">$language[title]</a>";
-                        }
-                   ?>
+                <!--<li class="nav-item dropdown">-->
+                <!--<a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">English</a>-->
+                <!--<div class="dropdown-menu" aria-labelledby="dropdown01">-->
+                <!--<a class="dropdown-item" href="">Gernam</a>-->
+                <!--<a class="dropdown-item" href="">French</a>-->
+                <!--<a class="dropdown-item" href="">Japanese</a>-->
             </div>
         </li>
     </ul>
