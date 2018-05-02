@@ -117,12 +117,13 @@
 <!-- Secton_One -->
 <section class="section_one">
     <div class="container text-center">
-        <h2>Power to the people</h2>
         
         <?php 
             foreach ($section_one as $value) {
         ?>
-        
+            
+            <h2><?php echo $value[heading]; ?></h2>
+            
             <blockquote class="blockquote lead-center"><?php echo $value[text]; ?></blockquote>
         
         <?php
@@ -138,23 +139,63 @@
 <!-- Secton_Two -->
 <section class="section_two">
     <div class="container text-center">
-        <h2>Power to the people</h2>
         
         <?php 
-            foreach ($section_one as $value) {
+            foreach ($section_two as $value) {
         ?>
         
-            <blockquote class="blockquote lead-center"><?php echo $value[text]; ?></blockquote>
+            <h2><?php echo $value[heading]; ?></h2>
+        
+            <p class="lead text-center"><?php echo $value[text1]; ?></p>
         
         <?php
             }
         ?>
         
-        <footer><?php echo $value[footerQuote]; ?></footer>
-        <a class="btn btn-primary btn-lg">Read More</a>
+        <img src="https://www.nintex.com/-/media/images/nintex/sections/workflow-automation-makes-collaborating-easy/a-new-era-of-intelligent-process-automation/free-the-4th-wave-of-process-automation.ashx"></img>
+        
+        <?php 
+            foreach ($section_two as $value) {
+        ?>
+        
+            <p class="lead text-center"><?php echo $value[text2]; ?></p>
+        
+        <?php
+            }
+        ?>
+        
     </div>
+    
+    <div class="section-bg-image text-center">
+        <p class="lead">The IPA era is here.</p>
+        <a class="btn btn-primary btn-lg">Download the Whitepaper</a>
+    </div>
+    
 </section>
         
+
+
+<!-- Secton_Three -->
+<section class="section_three">
+    <div class="container text-center">
+        
+        <?php 
+            foreach ($section_three as $value) {
+        ?>
+        
+            <h2><?php echo $value[heading]; ?></h2>
+            
+            <p class="lead"><?php echo $value[text]; ?></p>
+        
+        <?php
+            }
+        ?>
+        
+        
+    </div>
+</section>
+
+
 
 <?php include('includes/footer.php'); ?>
         

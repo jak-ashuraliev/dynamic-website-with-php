@@ -136,3 +136,26 @@ body{
     background: transparent;
     color: #f47920;
 }
+
+/* ===================== SECTIONS =====================*/
+
+section h2{
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.section_two{
+    background: #02151d;
+    color: #fff;
+}
+.section_two img{
+    width: 100%;
+}
+
+.section_two .section-bg-image{
+    background-image: url('https://www.nintex.com/-/media/images/nintex/sections/workflow-automation-makes-collaborating-easy/a-new-era-of-intelligent-process-automation/the-ipa-era-is-here/the-ipa-era-is-here-resized.ashx');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 275px;
+}

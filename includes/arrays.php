@@ -212,6 +212,7 @@
     $section_one = array(
         
                         array(
+                            heading         => "Power to the people",
                             text            => "With Nintex, people on the business side now find it easy to build workflows on their own. I’ve been in meetings where a business problem was introduced, and by the end of the meeting, there is a running solution in place. People say to me, ‘It’s easy!’, and I say, ‘It’s Nintex’.",
                             footerQuote     => "Fernando NunesAutomation Architect, MAN Diesel & Turbo"
                         )
@@ -223,12 +224,23 @@
     $section_two = array(
         
                         array(
-                            text1   => "Artificial intelligence—from machine learning to natural language processing and deep learning—changes the way modern workplaces innovate and operate.",
-                            text2   => "Together, we pioneered the move to no-code process automation. Now, we’re pushing forward. This is Intelligent Process Automation (IPA)—an emerging set of new technologies that combines process automation with robotic process automation and machine learning."
+                            heading     => "The 4th wave of process automation",
+                            text1       => "Artificial intelligence—from machine learning to natural language processing and deep learning—changes the way modern workplaces innovate and operate.",
+                            text2       => "Together, we pioneered the move to no-code process automation. Now, we’re pushing forward. This is Intelligent Process Automation (IPA)—an emerging set of new technologies that combines process automation with robotic process automation and machine learning."
                         )
                           
                     );
     
+    
+    // SECTION = HUMANS AND MACHINES WORKING IN HARMONY
+    $section_three = array(
+        
+                        array(
+                            heading     => "Humans and machines working in harmony",
+                            text        => "What if every process your team used to get work done happened automatically? Move beyond IT bottlenecks to a world where humans and machines accomplish more—together—to improve how people work."
+                        )
+                          
+                    );
 
 
 
