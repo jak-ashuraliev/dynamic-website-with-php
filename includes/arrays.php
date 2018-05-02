@@ -206,4 +206,30 @@
                             )
                         );
 
+// ============================== SECTIONS ============================== 
+
+    // SECTION = POWER TO THE PEOPLE 
+    $section_one = array(
+        
+                        array(
+                            text            => "With Nintex, people on the business side now find it easy to build workflows on their own. I’ve been in meetings where a business problem was introduced, and by the end of the meeting, there is a running solution in place. People say to me, ‘It’s easy!’, and I say, ‘It’s Nintex’.",
+                            footerQuote     => "Fernando NunesAutomation Architect, MAN Diesel & Turbo"
+                        )
+                          
+                    );
+                    
+                    
+    // SECTION = THE 4TH WAVE OF PROCESS AUTOMATION
+    $section_two = array(
+        
+                        array(
+                            text1   => "Artificial intelligence—from machine learning to natural language processing and deep learning—changes the way modern workplaces innovate and operate.",
+                            text2   => "Together, we pioneered the move to no-code process automation. Now, we’re pushing forward. This is Intelligent Process Automation (IPA)—an emerging set of new technologies that combines process automation with robotic process automation and machine learning."
+                        )
+                          
+                    );
+    
+
+
+
 ?>

@@ -28,7 +28,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-default">
+  <nav class="navbar navbar-default fixed-top">
     <div class="container">
     
     <!-- BRAND -->
