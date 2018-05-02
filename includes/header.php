@@ -58,7 +58,7 @@
                 </button>
               </div>
             </div>
-            <span class="freeTrial">FREE TRIAL</span>
+            <span class="freeTrial"><a href="index.php">FREE TRIAL</a></span>
         </form>
       
     </div>

@@ -19,7 +19,6 @@ body{
     /*margin-left: 50px;*/
     margin-top: 6px;
     padding-left: 80px;
-
 }
 
 .navbar-nav li a{
@@ -28,7 +27,6 @@ body{
     font-weight: bold;
     letter-spacing: .5px;
     font-size: 14px;
-    padding: 0;
 }
 
 .navbar-default .navbar-nav>.active>a{
@@ -52,11 +50,19 @@ body{
 .freeTrial {
     background: #f47920;
     padding: 23px;
-    color: #fff;
     font-size: 14px;
     margin-left: 10px;
     font-weight: bold;
     letter-spacing: .5px;
+}
+
+.freeTrial:hover{
+    cursor: pointer;
+}
+
+.freeTrial a{
+    text-decoration: none;
+    color: #fff;
 }
 
 
@@ -71,9 +77,29 @@ h1{
 
 /* ===================== DROPDOWN MAIN NAVIGATION =====================*/
 
-.custom-dropdown {
+.main-nav-menu{
+    background: #414042;
+    margin-top: -20px;
+    text-align: center;
+}
+
+.dropdown {
     background: #414042;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 18px;
+    display: inline-block;
+    list-style-type: none;
 }
+
+.dropdown a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.dropdown a:hover{
+    color: #f47920;
+}
+
