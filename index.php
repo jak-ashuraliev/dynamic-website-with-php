@@ -124,14 +124,20 @@
             
             <h2><?php echo $value[heading]; ?></h2>
             
-            <blockquote class="blockquote lead-center"><?php echo $value[text]; ?></blockquote>
+            <blockquote class="blockquote lead text-center"><?php echo $value[text]; ?></blockquote>
         
         <?php
             }
         ?>
         
-        <footer><?php echo $value[footerQuote]; ?></footer>
-        <a class="btn btn-primary btn-lg">Read More</a>
+        <div class="footerQuote">
+            <i><?php echo $value[footerQuote]; ?></i>
+        </div>
+        <div class=custom-btn>
+            <a href="">Read More</a>
+        </div>
+        
+        
     </div>
 </section>
 

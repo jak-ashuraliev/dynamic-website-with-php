@@ -5,6 +5,7 @@ body{
     color: #444;
     overflow-x: hidden;
 }
+
 /* =====================  NAVBAR =====================*/
 .navbar-brand{
     padding: 6px;
@@ -15,7 +16,6 @@ body{
     border-radius: 0;
 }
 .navbar-nav{
-    /*margin-left: 50px;*/
     margin-top: 6px;
     padding-left: 80px;
 }
@@ -38,7 +38,6 @@ body{
     color: #f47920 !important;
 }
 .navbar-form{
-    /*position: relative;*/
     margin-top: -42px;
 }
 .freeTrial {
@@ -78,26 +77,17 @@ body{
     margin-bottom: 30px;
 }
 
-.main-heading .btn-primary {
+.main-heading .btn-primary{
     background-color: #f47920;
     border-color: #ef5731;
 }
-.main-heading a:hover {
-    background-color: red !important;
-    /*border-color: #ef5731;*/
-}
+/*.main-heading a:hover {*/
+
+/*}*/
 .main-heading .btn-lg{
     padding: 14px 16px;
     margin-bottom: 10px;
 }
-
-/*.video-container video{*/
-/* 	position: absolute;*/
-/*	top: 0;*/
-/*	left: 0;*/
-/*	width: 100%;*/
-/*	height: 100%;*/
-/*}*/
 
 /* ===================== DROPDOWN MAIN NAVIGATION =====================*/
 
@@ -139,11 +129,43 @@ body{
 
 /* ===================== SECTIONS =====================*/
 
-section h2{
+section h2 {
     font-weight: 600;
     font-size: 36px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
-
+.section_one{
+    padding-bottom: 60px;
+}
+.blockquote{
+    max-width: 66%;
+    margin: 0 auto;
+}
+.footerQuote{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footerQuote i{
+    font-size: 16px;
+    color: #555;
+    letter-spacing: .5px;
+}
+.custom-btn{
+    margin-top: 60px;
+}
+.custom-btn a {
+    background-color: #f47920;
+    border-color: #ef5731;
+    padding: 18px 30px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+.custom-btn a:hover {
+    background-color: #ef5731;
+}
 .section_two{
     background: #02151d;
     color: #fff;

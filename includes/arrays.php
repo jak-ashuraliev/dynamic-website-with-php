@@ -214,7 +214,7 @@
                         array(
                             heading         => "Power to the people",
                             text            => "With Nintex, people on the business side now find it easy to build workflows on their own. I’ve been in meetings where a business problem was introduced, and by the end of the meeting, there is a running solution in place. People say to me, ‘It’s easy!’, and I say, ‘It’s Nintex’.",
-                            footerQuote     => "Fernando NunesAutomation Architect, MAN Diesel & Turbo"
+                            footerQuote     => "- Fernando NunesAutomation Architect, MAN Diesel & Turbo"
                         )
                           
                     );
