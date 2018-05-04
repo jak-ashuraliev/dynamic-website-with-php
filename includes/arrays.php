@@ -237,16 +237,55 @@
         
                         array(
                             heading         => "Humans and machines working in harmony",
-                            text            => "What if every process your team used to get work done happened automatically? Move beyond IT bottlenecks to a world where humans and machines accomplish more—together—to improve how people work.",
+                            text            => "What if every process your team used to get work done happened automatically? Move beyond IT bottlenecks to a world where humans and machines accomplish more—together—to improve how people work."
+                        ),
+                        array(
+                            titleWorkflow   => 'Advanced Workflow',
                             textWorkflow    => "Drag and drop no code workflow capable of automating any business process",
-                            textDocument    => "Automatically create consistent, compliant, up-to-date documents",
-                            textMobile      => "Leverage mobile devices and forms to capture critical data online or offline",
-                            textRobotic     => "Automate the highly repetitive actions a person would perform",
-                            textProcess     => "Real-time analytics and insights to govern, analyze, and drive the efficacy and efficiency of your process portfolio",
-                            textMachine     => "Utilize best of breed machine learning and natural language processes to assist people in completing tasks"
                             
+                            titleDocument   => "Document Generation",
+                            textDocument    => "Automatically create consistent, compliant, up-to-date documents",
+                            
+                            titleMobile     => "Mobile Apps adn Forms",
+                            textMobile      => "Leverage mobile devices and forms to capture critical data online or offline",
+                            
+                            titleRobotic    => "Robotic Process Autoation",
+                            textRobotic     => "Automate the highly repetitive actions a person would perform",
+                            
+                            titleProcess    => "Process Intelligence",
+                            textProcess     => "Real-time analytics and insights to govern, analyze, and drive the efficacy and efficiency of your process portfolio",
+                            
+                            titleMachine    => "Machine Intelligence",
+                            textMachine     => "Utilize best of breed machine learning and natural language processes to assist people in completing tasks"   
                         )
                           
+                    );
+                    
+    // SECTION = NINTEX WINS NEW INVESTOR
+    $section_four = array(
+        
+                        array(
+                            headingNintex   => "Nintex wins new investor, positions itself in the intelligent process automation market",
+                            textNintex      => "Industry analyst firm 451 Research examines Thoma Bravo's new majority investment stake in Nintex and dives into how Nintex plans to enable intelligent process automation (IPA) to benefit the modern enterprise."
+                        )
+                    );
+                    
+    // SECTION = INTUITIVE. INTEGRATED. INTELLIGENT
+    $section_five = array(
+        
+                        array(
+                            headingIntuitive   => "Intuitive. Integrated. Intelligent. Expect nothing less.",
+                            textIntuitiveOne   => "What makes an Intelligent Process Automation platform? It’s easy for line of business—and trusted by IT. It works where you work. And it teaches you, while optimizing your processes.",
+                            
+                            titleIntuitive     => "Intuitive",
+                            textIntuitive      => "Your workflow and content automation tools must be easy to design, participate, understand, and resolve.",
+                            
+                            titleIntegrated    => "Integrated",
+                            textIntegrated     => "Integrated IPA capabilities must be deeply integrated into the enterprise tools your line of business relies on.",
+                            
+                            titleIntelligent   => "Intelligent",
+                            textIntelligent    => "An IPA platform should be a system of intelligence—your digital process automation coach."
+                        )
                     );
 
 

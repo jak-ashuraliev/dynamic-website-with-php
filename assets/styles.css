@@ -128,9 +128,9 @@ body{
 }
 
 /* ===================== SECTION ONE =====================*/
+/* ================== Power to the people ================*/
 
 section h2 {
-    /*font-weight: 600;*/
     font-size: 38px;
     margin-top: 80px;
     margin-bottom: 40px;
@@ -166,6 +166,7 @@ section h2 {
 }
 
 /* ===================== SECTION TWO =====================*/
+/* ========== The 4th wave of process automation ==========*/
 
 .section_two{
     background: #02151d;
@@ -185,7 +186,7 @@ section h2 {
     margin-top: 80px;
     position: relative;
 }
-.section_two p {
+.section_two p{
     max-width: 75%;
     margin: 0 auto;
     font-size: 22px;
@@ -202,4 +203,105 @@ section h2 {
     font-size: 20px;
     font-weight: bold;
     padding-left: 10px;
+}
+
+/* ===================== SECTION THREE =====================*/
+/* ========= Humans and machines working in harmony =========*/
+
+.section_three .lead{
+    max-width: 75%;
+    margin: 0 auto;
+    font-size: 22px;
+}
+.title{
+    background: #cfd8db;
+    padding: 6px;
+}
+.title:hover{
+    background: #ef5731;
+}
+.thumbnail{
+    padding: 0;
+    min-height: 375px;
+}
+.thumbnail h3{
+    margin-top: 12px;
+}
+.thumbnail h3>a{
+    font-weight: bold;
+    font-size: 16px;
+    color: #444;
+    text-decoration: none;
+}
+.thumbnail h3>a:hover{
+    color: #fff;
+}
+.thumbnail a>img, 
+.thumbnail>img {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.body-text p{
+    /*margin: 0 0 10px;*/
+    padding: 10px 30px;
+    font-size: 20px;
+    text-align: left;
+}
+.section_three .btn-spacing{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.section_two .fa-edit,
+.section_three .fa-edit {
+    font-size: 18px;
+    /*padding-right: 5px;*/
+}
+
+/* ===================== SECTION THREE =====================*/
+/* =============== Nintex wins new investor ===============*/
+
+.section_four{
+    background-image: url('https://www.nintex.com/-/media/images/nintex/sections/home/451-report/waves_2.ashx');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: #2a576a;
+}
+.section_four{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.section_four h2{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.section_four h2,
+.section_four p{
+    color: #fff;
+}
+
+/* ===================== SECTION THREE =====================*/
+/* ===== Intuitive. Integrated. Intelligent. Expect nothing less. =====*/
+
+.section_five{
+    background: #02151d;
+    padding-bottom: 60px;
+    color: #fff;
+}
+
+.section_five img{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.section_five .body-text p{
+    text-align: center;
+}
+.section_five .lead{
+    max-width: 75%;
+    margin: 0 auto;
+    font-size: 22px;
+}
+.section_five h3{
+    color: #97d4ef;
+    font-size: 28px;
 }
