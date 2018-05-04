@@ -94,8 +94,8 @@
               
             </ul>
         </li>
-    </div>
-</div>
+    </div><!-- container -->
+</div><!-- main menu --<
 
 <!-- ============================= MAIN HEADING ============================= -->
 
@@ -138,7 +138,7 @@
         </div>
         
         
-    </div>
+    </div><!-- container -->
 </section>
 
 
@@ -152,7 +152,7 @@
         
             <h2><?php echo $value[heading]; ?></h2>
         
-            <p class="lead text-center"><?php echo $value[text1]; ?></p>
+            <p class="lead"><?php echo $value[text1]; ?></p>
         
         <?php
             }
@@ -170,16 +170,17 @@
             }
         ?>
         
-    </div>
+    </div><!-- container -->
     
-    <div class="section-bg-image text-center">
-        <p class="lead">The IPA era is here.</p>
-        <a class="btn btn-primary btn-lg">Download the Whitepaper</a>
+    <div class="section-bg-image">
+        <div class="text-center custom-btn">
+            <p class="lead"><span class="eraText">The IPA era is here</span></p>
+            <a class="btn btn-primary btn-lg">Download the Whitepaper</a>
+        </div>
     </div>
     
 </section>
         
-
 
 <!-- Secton_Three -->
 <section class="section_three">
@@ -198,7 +199,29 @@
         ?>
         
         
-    </div>
+        <div class="row">
+            
+            <div class="col-sm-4">
+                
+                <div class="thumbnail">
+                    <div class="title">
+                        <h3>Advanced Workflow</h3>        
+                    </div>
+                </div>
+                
+                <div class="thumbnail">
+                    <div class="body-caption">
+                        
+                    </div>
+                </div>
+                
+            </div><!-- col -->
+            
+           
+            
+        </div><!-- row -->
+        
+    </div><!-- container -->
 </section>
 
 

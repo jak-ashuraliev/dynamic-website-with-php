@@ -236,8 +236,15 @@
     $section_three = array(
         
                         array(
-                            heading     => "Humans and machines working in harmony",
-                            text        => "What if every process your team used to get work done happened automatically? Move beyond IT bottlenecks to a world where humans and machines accomplish more—together—to improve how people work."
+                            heading         => "Humans and machines working in harmony",
+                            text            => "What if every process your team used to get work done happened automatically? Move beyond IT bottlenecks to a world where humans and machines accomplish more—together—to improve how people work.",
+                            textWorkflow    => "Drag and drop no code workflow capable of automating any business process",
+                            textDocument    => "Automatically create consistent, compliant, up-to-date documents",
+                            textMobile      => "Leverage mobile devices and forms to capture critical data online or offline",
+                            textRobotic     => "Automate the highly repetitive actions a person would perform",
+                            textProcess     => "Real-time analytics and insights to govern, analyze, and drive the efficacy and efficiency of your process portfolio",
+                            textMachine     => "Utilize best of breed machine learning and natural language processes to assist people in completing tasks"
+                            
                         )
                           
                     );
