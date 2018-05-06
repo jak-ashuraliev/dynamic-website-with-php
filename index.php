@@ -321,7 +321,6 @@
         ?>
         
     </div><!-- container -->
-
 </section>
 
 <!-- ============================= INTUITIVE. INTEGRATED. INTELLIGENT ============================= -->
@@ -338,7 +337,7 @@
         
             <p class="lead"><?php echo $value[textIntuitiveOne]; ?></p>
             
-            <img src="https://www.nintex.com/-/media/images/nintex/sections/workflow-automation-makes-collaborating-easy/a-new-era-of-intelligent-process-automation/intuitive-integrated-intelligent-expect-nothing-less.ashx"></img>
+            <img class="img-responsive" src="https://www.nintex.com/-/media/images/nintex/sections/workflow-automation-makes-collaborating-easy/a-new-era-of-intelligent-process-automation/intuitive-integrated-intelligent-expect-nothing-less.ashx"></img>
         
         <?php
             }
@@ -375,13 +374,72 @@
                         <p><?php echo $value[textIntelligent]; ?></p>
                     </div>
             </div><!-- col -->
-            
 
         </div><!-- row -->
         
+    </div><!-- container -->
+</section>
+
+<!-- ============================= WHAT TO LEARN MORE ============================= -->
+
+<!-- Section_Six -->
+<section class="section_six">
+    <div class="container text-center">
+        
+        <?php 
+            foreach ($section_six as $value) {
+        ?>
+        
+            <h2><?php echo $value[headingLearnMore]; ?></h2>
+        
+            <p class="lead"><?php echo $value[textLearnMore]; ?></p>
+            
+        
+        <?php
+            }
+        ?>
+        
+        
+         <div class="row">
+            
+            <div class="col-sx-4 col-sm-4 col-md-4 text-left">
+                <div class="caption">
+                    <img class="img-responsive" src="https://www.nintex.com/-/media/images/nintex/sections/workflow-automation-makes-collaborating-easy/a-new-era-of-intelligent-process-automation/disrupt-or-be-disrupted.ashx?h=233&w=355&la=en&hash=7E864954BF3C251E13E6AD8D16B1B9E702A308C6"></img>
+                    <h3><a href="index.php"><?php echo $value[titleDisrupt]; ?></a></h3>
+                </div>
+                    <div class="body-text">
+                        <p><?php echo $value[textDisrupt]; ?></p>
+                    </div>
+            </div><!-- col -->
+        
+            
+            <div class="col-sx-4 col-sm-4 col-md-4 text-left">
+                <div class="caption">
+                    <img class="img-responsive" src="https://www.nintex.com/-/media/images/nintex/sections/workflow-automation-makes-collaborating-easy/a-new-era-of-intelligent-process-automation/dt-journey-circle-of-despair.ashx?h=234&w=350&la=en&hash=D3DD9ED9B5DDD8435533A8888C5DF291428D2C0E"></img>
+                    <h3><a href="index.php"><?php echo $value[titleCircle]; ?></a></h3>
+                </div>
+                    <div class="body-text">
+                        <p><?php echo $value[textCircle]; ?></p>
+                    </div>
+            </div><!-- col -->
+            
+            
+            <div class="col-sx-4 col-sm-4 col-md-4 text-left">
+                <div class="caption">
+                    <img class="img-responsive"src="https://www.nintex.com/-/media/images/nintex/sections/workflow-automation-makes-collaborating-easy/a-new-era-of-intelligent-process-automation/4th-wave-of-automation.ashx?h=233&w=350&la=en&hash=D294C075021984D28A280C875574F0CC31DAA3D0"></img>
+                    <h3><a href="index.php"><?php echo $value[title4thWave]; ?></a></h3>
+                </div>
+                    <div class="body-text">
+                        <p><?php echo $value[text4thWave]; ?></p>
+                    </div>
+            </div><!-- col -->
+
+        </div><!-- row -->
         
     </div><!-- container -->
 </section>
+
+
 
 
 <?php include('includes/footer.php'); ?>

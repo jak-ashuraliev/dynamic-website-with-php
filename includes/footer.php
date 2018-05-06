@@ -1,7 +1,61 @@
         
     
-        <footer>
-          <div>
+        <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        
+                        <div class="col-sx-3 col-sm-3 col-md-3 text-left">
+                            <h4>COMPANY</h4>
+                            <ul class="list-unstyled">
+                                <?php 
+                        
+                                    foreach ($footerMenuCompany as $value) {
+                                        echo "<li><a href=\"$value[slug]\">$value[menuList]</a></li>";
+                                    }
+                                ?>
+                            </ul>
+                        </div><!-- col -->
+                    
+                        <div class="col-sx-3 col-sm-3 col-md-3 text-left">
+                            <h4>RESOURCES</h4>
+                            <ul class="list-unstyled">
+                                <?php 
+                        
+                                    foreach ($footerMenuResources as $value) {
+                                        echo "<li><a href=\"$value[slug]\">$value[menuList]</a></li>";
+                                    }
+                                ?>
+                            </ul>
+                        </div><!-- col -->
+                    
+                        <div class="col-sx-3 col-sm-3 col-md-3 text-left">
+                            <h4>FREE TRIALS</h4>
+                            <ul class="list-unstyled">
+                                <?php 
+                        
+                                    foreach ($footerMenuTrial as $value) {
+                                        echo "<li><a href=\"$value[slug]\">$value[menuList]</a></li>";
+                                    }
+                                ?>
+                            </ul>
+                        </div><!-- col -->
+                
+                        <div class="col-sx-3 col-sm-3 col-md-3 text-left">
+                            <h4>CONNCET</h4>
+                            <ul class="list-unstyled">
+                                <?php 
+                        
+                                    foreach ($footerMenuConnect as $value) {
+                                        echo "<li><a href=\"$value[slug]\">$value[menuList]</a></li>";
+                                    }
+                                ?>
+                            </ul>
+                        </div><!-- col -->
+                        
+                    </div><!-- row -->
+                </div><!-- container -->
+
+          <div class="col-sm-12 col-md-12 col-lg-12 text-center">
             <samll>&copy; <?php echo date('Y'); ?> - <?php echo $site_created_by; ?></samll>
           </div>
         </footer>

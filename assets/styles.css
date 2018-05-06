@@ -242,7 +242,6 @@ section h2 {
     margin-bottom: 24px;
 }
 .body-text p{
-    /*margin: 0 0 10px;*/
     padding: 10px 30px;
     font-size: 20px;
     text-align: left;
@@ -254,10 +253,9 @@ section h2 {
 .section_two .fa-edit,
 .section_three .fa-edit {
     font-size: 18px;
-    /*padding-right: 5px;*/
 }
 
-/* ===================== SECTION THREE =====================*/
+/* ===================== SECTION FOUR =====================*/
 /* =============== Nintex wins new investor ===============*/
 
 .section_four{
@@ -280,7 +278,7 @@ section h2 {
     color: #fff;
 }
 
-/* ===================== SECTION THREE =====================*/
+/* ===================== SECTION FIVE =====================*/
 /* ===== Intuitive. Integrated. Intelligent. Expect nothing less. =====*/
 
 .section_five{
@@ -304,4 +302,40 @@ section h2 {
 .section_five h3{
     color: #97d4ef;
     font-size: 28px;
+}
+
+/* ===================== SECTION SIX =====================*/
+/* ================= Want to learn more? =================*/
+
+.section_six .body-text p{
+    text-align: left;
+    padding: 0;
+}
+.section_six .caption h3>a {
+    font-size: 28px;
+    color: #ff7900;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.section_six{
+    padding-bottom: 60px;
+}
+
+/* ===================== FOOTER =====================*/
+/* ===================== Footer =====================*/
+.footer{
+    background: #444;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #888;
+}
+footer a{
+    color: #fff;
+}
+footer a:hover{
+    color: #ef5731;
+    text-decoration: none;
+}
+footer .container{
+    padding-bottom: 30px;
 }

@@ -287,7 +287,135 @@
                             textIntelligent    => "An IPA platform should be a system of intelligence—your digital process automation coach."
                         )
                     );
+                    
+    // SECTION = WANT TO LEARN MORE
+    $section_six = array(
+        
+                        array(
+                            headingLearnMore    => "Want to learn more?",
+                            textLearnMore       => "Explore Intelligent Process Automation and more on the Nintex blog.",
+                            
+                            titleDisrupt        => "Disrupt or be disrupted",
+                            textDisrupt         => "Welcome to the new era of Intelligent Process Automation. Stay ahead of the competition by automating, orchestrating, and optimizing your workplace.",
+                            
+                            titleCircle         => "The circle of despair and how to break it",
+                            textCircle          => "Digital transformation is an achievable destination not a never ending journey. Put an end to the IT backlog by empowering your line of business with an easy-to-use no code IPA platform.",
+                            
+                            title4thWave        => "4th wave of automation",
+                            text4thWave         => "Focus on what matters most. With the rise of AI, it is now possible for line of business workers to leverage machine learning, natural language processing and deep learning capabilities to move repeatable tasks to machines."
+                        )
+                    );
 
+// ============================== FOOTER / SITE MAP ============================== 
+
+    // Footer Menu / COMPANY
+    $footerMenuCompany = array(
+
+                            array(
+                                slug        => "index.php",
+                                menuList    => "About Us"
+                            ),
+                            array(
+                                slug        => "index.php",
+                                menuList    => "Newsroom"
+                            ),
+                            array(
+                                slug        => "index.php",
+                                menuList    => "Events & Webinar"
+                            ),
+                            array(
+                                slug        => "index.php",
+                                menuList    => "Careers"
+                            ),
+                            array(
+                                slug        => "index.php",
+                                menuList    => "Management Team"
+                            )
+                        );    
+                            
+                           
+                        
+    // Footer Menu / RESOURCES
+    $footerMenuResources = array(
+                    
+                            array(
+                                slug        => "index.php",
+                                menuList    => "Search Resources"
+                            ),
+                            array(
+                                slug        => "index.php",
+                                menuList    => "Support"
+                            ),
+                            array(
+                                slug        => "index.php",
+                                menuList    => "Learning Center"
+                            ),
+                            array(
+                                slug        => "index.php",
+                                menuList    => "Product Help"
+                            ),
+                            array(
+                                slug        => "index.php",
+                                menuList    => "Status"
+                            ),
+                            array(
+                                slug        => "index.php",
+                                menuList    => "Pricing"
+                            )
+                        ); 
+                        
+    // Footer Menu / FREE TRIAL
+    $footerMenuTrial = array(
+                            
+                        array(
+                            slug            => "index.php",
+                            menuList        => "Nintex Workflow Cloud"
+                            ),
+                            array(
+                                slug        => "index.php",
+                                menuList    => "Workflow for Office 365"
+                            ),
+                            array(
+                                slug        => "index.php",
+                                menuList    => "Workflow for SharePoint"
+                            ),
+                            array(
+                                slug        => "index.php",
+                                menuList    => "DocGen for Saleforece"
+                            ),
+                            array(
+                                slug        => "index.php",
+                                menuList    => "Contact Us"
+                            ),
+                            array(
+                                slug        => "index.php",
+                                menuList    => "Subscribe for Updates"
+                            )   
+                        );                
+                    
+                    
+    // Footer Menu / CONNECT
+    $footerMenuConnect = array(
+                    
+                            array(
+                                slug        => "index.php",
+                                menuList    => "Community"
+                            ),
+                            array(
+                                slug        => "index.php",
+                                menuList    => "Partner Central"
+                            ),
+                            array(
+                                slug        => "index.php",
+                                menuList    => "Nintex Xchange"
+                            ),
+                            array(
+                                slug        => "index.php",
+                                menuList    => "Nintex Blog"
+                            )
+                        ); 
+                        
+                    
 
 
 ?>
