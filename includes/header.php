@@ -29,7 +29,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-default fixed-top">
+  <nav class="navbar navbar-default">
     <div class="container">
     
     <!-- BRAND -->
@@ -50,7 +50,7 @@
         <?php include('includes/nav.php'); ?>
         
         <!-- Search -->
-        <form class="navbar-form " action="/action_page.php">
+        <form class="navbar-form text-center" action="/action_page.php">
             <div class="input-group">
               <input type="text" class="form-control" placeholder="Search" name="search">
               <div class="input-group-btn">
