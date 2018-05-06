@@ -63,7 +63,7 @@ body{
 /* ===================== MAIN HEADING =====================*/
 
 .video-container video{
-    width: auto;
+    width: 100%;
     height: auto;
     position: relative;
     z-index: -100;
@@ -402,11 +402,25 @@ footer .container{
         margin-top: 0
     }
 }
-@media (max-width: 675px){
-    .overlay {
-        width: 80%;
-        top: 7rem;
-        left: 40px;
+@media (max-width: 768px){
+    /*.overlay {*/
+    /*    width: 80%;*/
+    /*    top: 7rem;*/
+    /*    left: 40px;*/
+    /*}*/
+    .overlay{
+        position: relative;
+        width: 100%;
+        background-color: rgba(244, 121, 32, 1);
+        top: auto;
+        left: auto;
+        color: #fff;
+        z-index: -100;
+        margin-top: -6px;
+    }
+    .main-heading .btn-primary {
+        border: 1px solid #fff;
+        text-decoration: none;
     }
 }
 @media (max-width: 375px){
