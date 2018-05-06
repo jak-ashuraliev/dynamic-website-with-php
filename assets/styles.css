@@ -397,7 +397,6 @@ footer .container{
        position: relative;
     }
 }
-
 @media (min-width: 960px){
     .main-nav-menu {
         margin-top: 0
@@ -410,7 +409,6 @@ footer .container{
         left: 40px;
     }
 }
-
 @media (max-width: 375px){
     .overlay{
         position: relative;
