@@ -64,7 +64,7 @@ body{
 
 .video-container video{
     width: 100%;
-    height: auto;
+    height: 100%;
     position: relative;
     z-index: -100;
 }
@@ -344,7 +344,14 @@ footer .container{
 
 /* ===================== MEDIA QUERIES =====================*/
 
-@media (max-width: 1200px) {
+@media (min-width: 1281px){
+    .overlay{
+        top: 18rem;
+        width: 42%;
+    }
+}
+
+@media (max-width: 1281px) {
     
     .navbar-form {
         margin-top: -36px;
@@ -388,8 +395,8 @@ footer .container{
         display: none;
     }
     .overlay {
-        width: 55%;
-        top: 12rem;
+        width: 80%;
+        top: 7rem;
         z-index: -10;
     }
     .navbar-nav {
@@ -397,17 +404,13 @@ footer .container{
        position: relative;
     }
 }
+
 @media (min-width: 960px){
     .main-nav-menu {
         margin-top: 0
     }
 }
-@media (max-width: 768px){
-    /*.overlay {*/
-    /*    width: 80%;*/
-    /*    top: 7rem;*/
-    /*    left: 40px;*/
-    /*}*/
+@media (max-width: 767px){
     .overlay{
         position: relative;
         width: 100%;
