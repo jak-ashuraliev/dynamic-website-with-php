@@ -40,7 +40,7 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><img src="https://www.nintex.com/-/media/images/nintex/sections/nintex-logo.ashx?h=50&w=174&la=en&hash=DF87DB84E303661159DCB02CA8FAA81EDC9E3CAF"></img></a>
+      <a class="navbar-brand" href="index.php"><img src="https://www.nintex.com/-/media/images/nintex/sections/nintex-logo.ashx?h=50&w=174&la=en&hash=DF87DB84E303661159DCB02CA8FAA81EDC9E3CAF"></img></a>
     </div>
       
     <!-- COLLAPSIBLE NAVBAR -->

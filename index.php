@@ -319,7 +319,7 @@
             <p class="lead"><?php echo $value[textNintex]; ?></p>
             
             <div class="text-center custom-btn btn-spacing">
-                <a class="btn btn-primary btn-lg"><i class="far fa-edit"></i> Download the Whitepaper</a>
+                <a class="btn btn-primary btn-lg"><i class="far fa-edit"></i> Download the Report</a>
             </div>
         
         <?php

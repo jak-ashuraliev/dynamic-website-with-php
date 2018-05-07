@@ -78,16 +78,21 @@ body{
     padding: 10px 20px;
 }
 .main-heading h1{
-    font-size: 3rem;
+    font-size: 34px;
     color: #404040;
     line-height: 1.1;
 }
 .main-heading p{
-    font-size: 2rem;
-    margin-bottom: 30px;
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 .main-heading .btn-primary{
     background-color: #f47920;
+    border-color: #ef5731;
+    text-decoration: none;
+}
+.main-heading .btn-primary:hover{
+    background-color: #ef5731;
     border-color: #ef5731;
 }
 .main-heading .btn-lg{
@@ -344,14 +349,25 @@ footer .container{
 
 /* ===================== MEDIA QUERIES =====================*/
 
-@media (min-width: 1281px){
+@media (max-width: 1680px){
     .overlay{
-        top: 18rem;
-        width: 42%;
+        top: 17rem;
+        width: 40%;
     }
 }
-
-@media (max-width: 1281px) {
+@media (max-width: 1540px){
+    .overlay{
+        top: 16rem;
+        width: 48%;
+    }
+}
+@media (max-width: 1366px){
+    .overlay{
+        top: 15rem;
+        width: 48%;
+    }
+}
+@media (max-width: 1200px) {
     
     .navbar-form {
         margin-top: -36px;
@@ -396,7 +412,7 @@ footer .container{
     }
     .overlay {
         width: 80%;
-        top: 7rem;
+        top: 10rem;
         z-index: -10;
     }
     .navbar-nav {
